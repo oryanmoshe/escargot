@@ -1,7 +1,7 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: ":sparkles: Feature: "
+title: "✨ Feature: "
 labels: feature, triage
 assignees: ''
 
