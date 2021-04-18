@@ -3,6 +3,6 @@ module github.com/oryanmoshe/escargot
 go 1.16
 
 require (
-	github.com/gdamore/tcell/v2 v2.2.0 // indirect
-	github.com/rivo/tview v0.0.0-20210312174852-ae9464cc3598 // indirect
+	github.com/sirupsen/logrus v1.8.1
+	golang.org/x/sys v0.0.0-20210415045647-66c3f260301c // indirect
 )
