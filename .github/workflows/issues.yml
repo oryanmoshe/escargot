@@ -1,7 +1,7 @@
 name: Update epics
 on:
   issues:
-    types: [opened, closed, reopened]
+    types: [opened, closed, reopened, edited, reopened, labeled, unlabeled]
 jobs:
   epics:
     runs-on: ubuntu-latest
