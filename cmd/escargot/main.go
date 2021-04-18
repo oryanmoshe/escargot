@@ -1,9 +1,10 @@
 package main
 
 import (
-	"fmt"
+	"github.com/oryanmoshe/escargot/internal/store"
 )
 
 func main() {
-	fmt.Println("Hello")
+	s := store.FromID("oryan-store")
+	s.Whoop("A log message")
 }
