@@ -1,3 +1,5 @@
 bin
 .vim
 coverage
+*.coverprofile
+data/
