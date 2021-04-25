@@ -1,4 +1,10 @@
-.PHONY: build run test watch cover watch/cover
+.PHONY: build run test watch cover watch/cover up down
+
+up:
+	docker-compose up
+
+down:
+	docker-compose down
 
 build:
 	go build -o bin/escargot cmd/escargot/main.go
