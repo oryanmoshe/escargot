@@ -3,3 +3,5 @@ bin
 coverage
 *.coverprofile
 data/
+.idea/
+vendor/
